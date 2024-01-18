@@ -1,4 +1,10 @@
-
+const express=require("express");
+const hbs=require("hbs");
+const r=require("./src/r/main")
+const { sendmail }=require("./src/r/nodemailer")
+const bodyParser=require("body-parser")
+const mongoose=require("mongoose")
+const app=express();
 
 
 app.use(bodyParser.urlencoded({extended:true}))
