@@ -5,6 +5,7 @@ const { sendmail }=require("./r/nodemailer")
 const bodyParser=require("body-parser")
 const mongoose=require("mongoose")
 const app=express();
+const port=5000;
 
 
 app.use(bodyParser.urlencoded({extended:true}))
