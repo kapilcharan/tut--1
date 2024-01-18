@@ -1,0 +1,491 @@
+
+.threedot{
+    display: block;
+}
+.line{
+    width: 10.2rem;
+    background-color: black;
+    height: 11px;
+    margin: 19px 12px;
+    position: relative;
+    top: -25rem;
+    z-index: 1;
+    left: 117rem;
+
+}
+body{
+    background-color: white;
+    /* height: 11111rem; */
+} 
+
+html{
+    font-size: 62.5%;
+} 
+
+/* SECTION 1 HOME */
+
+
+
+.dropbtn {
+    position: relative;
+color: white;
+margin: 2.8rem;
+top: 64rem;
+left: 0;
+border: 22.6rem;
+font-size: 8.4rem;
+font-style: italic;
+text-decoration-line: none;
+background: transparent;
+text-decoration: none;
+   }
+   
+   /* The container <div> - needed to position the dropdown content */
+   .dropdown {
+    position: relative;
+    display: inline-block;
+   }
+   
+   /* Dropdown Content (Hidden by Default) */
+   .dropdown-content {
+    position: absolute;
+    background-color: rgb(36, 36, 37);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 64rem;
+    left: -60rem;
+    font-size: 8.4rem;
+    width: 60rem;
+   }
+   
+   
+   
+   /* Links inside the dropdown */
+   .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+   }
+   
+   /* Change color of dropdown links on hover */
+   .dropdown-content a:hover {background-color: #ddd;}
+   
+   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+   .show {display:block;}
+
+/* #div1{
+    position: fixed;
+    top: -0.3rem;
+    background-color: #F5F5F5;
+    z-index: 1;
+    box-sizing: border-box;
+    width: 112%;
+    height: 35rem;
+}
+#logo1{
+    position: relative;
+left: 35rem;
+top: 0rem;
+}
+#companyname{
+    position: relative;
+    left: 13.8rem;
+    top: -139px;
+    font-size: 5.5rem;
+font-style: italic;
+font-family: "Gill Sans", sans-serif;
+}
+.navbar{
+    opacity: 0;
+}
+#navbarrsp{
+    background-color: rgb(36, 36, 37);
+height: 161rem;
+position: absolute;
+top: 0rem;
+width: 68rem;
+right: 0;
+border-radius: 92px;
+} 
+#a1{
+    color: white;
+position: absolute;
+top: 48rem;
+font-size: 84px;
+font-style: normal;
+left: 0rem;
+text-decoration-line: none;
+}
+#a2{
+    color: white;
+position: absolute;
+top: 64rem;
+font-size: 84px;
+font-style: normal;
+left: 0rem;
+text-decoration-line: none;
+}
+#a3{
+    color: white;
+position: absolute;
+top: 80rem;
+font-size: 84px;
+font-style: normal;
+left: 0rem;
+text-decoration-line: none;
+}
+#a4{
+    color: white;
+position: absolute;
+top: 96rem;
+font-size: 84px;
+font-style: normal;
+left: 0rem;
+text-decoration-line: none;
+}
+#a5{
+    color: white;
+position: absolute;
+top: 112rem;
+font-size: 84px;
+font-style: normal;
+left: 0rem;
+text-decoration-line: none;
+} */
+
+
+
+
+#div1{
+    position: fixed;
+    top: -0.3rem;
+    background-color: #F5F5F5;
+    z-index: 1;
+    box-sizing: border-box;
+    width: 112%;
+    height: 35rem;
+}
+#logo1{
+    position: relative;
+left: 35rem;
+top: 0rem;
+}
+#companyname{
+    position: relative;
+    left: 13.8rem;
+    top: -139px;
+    font-size: 5.5rem;
+font-style: italic;
+font-family: "Gill Sans", sans-serif;
+}
+.navbar{
+    opacity: 0;
+}
+#navbarrsp{
+    background-color: rgb(36, 36, 37);
+height: 161rem;
+position: absolute;
+top: 0rem;
+width: 68rem;
+right: 0;
+border-radius: 92px;
+} 
+#a1{
+    color: white;
+position: absolute;
+top: 48rem;
+font-size: 84px;
+font-style: normal;
+left: 0rem;
+text-decoration-line: none;
+}
+#a2{
+    color: white;
+position: absolute;
+top: 64rem;
+font-size: 84px;
+font-style: normal;
+left: 0rem;
+text-decoration-line: none;
+}
+#a3{
+    color: white;
+position: absolute;
+top: 80rem;
+font-size: 84px;
+font-style: normal;
+left: 0rem;
+text-decoration-line: none;
+}
+#a4{
+    color: white;
+position: absolute;
+top: 96rem;
+font-size: 84px;
+font-style: normal;
+left: 0rem;
+text-decoration-line: none;
+}
+#a5{
+    color: white;
+position: absolute;
+top: 112rem;
+font-size: 84px;
+font-style: normal;
+left: 0rem;
+text-decoration-line: none;
+}
+
+
+
+
+
+
+
+
+
+.img1{
+    width: 24rem;
+height: 23.5rem;
+border-radius: 1rem;
+position: relative;
+top: 6.5rem;
+left: 4rem;
+
+}
+
+
+
+/* /* SECTION 1 HOME */
+
+
+.nevbarforproduct{
+    /* position: absolute;
+    top: 43rem;
+    font-size: 4rem;
+    left: 5rem; */
+    display: none;
+
+}
+.nevabarforproduc1{
+    color: black;
+    text-decoration: none;
+
+    
+}
+
+
+/* section 2 */
+
+.product1img1{
+    width: 96rem;
+    height: 56rem;
+    position: absolute;
+    top: 68rem;
+    left: 8rem;
+    filter: drop-shadow(black 2px 4px 6px);
+
+}
+#product1img1small{
+    height: 18rem;
+    width: 26rem;
+    position: absolute;
+    top: 129rem;
+    left: 15rem;
+    filter: drop-shadow(black 2px 4px 3px);
+}
+#product1img2small{
+    height: 18rem;
+    width: 26rem;
+    position: absolute;
+    top: 129rem;
+    left: 48rem;
+    filter: drop-shadow(black 2px 4px 3px);
+}
+#product1img3small{
+    height: 18rem;
+    width: 26rem;
+    position: absolute;
+    top: 129rem;
+    left: 79rem;
+    filter: drop-shadow(black 2px 4px 3px);
+}
+.productname1{
+    position: absolute;
+    top: 37.7rem;
+    font-size: 11rem;
+    left: 5rem;
+    width: 59rem;
+}
+.produc1para{
+    position: absolute;
+    top: 149rem;
+    font-size: 4.6rem;
+    left: 11rem;
+    width: 100rem;
+}
+.productname2{
+    position: absolute;
+    top: 195rem;
+    font-size: 7.5rem;
+    left: 11rem;
+    width: 56rem;
+}
+
+.productpageline1{
+    position: absolute;
+    top: 211.7rem;
+    font-size: 2rem;
+    left: 11rem;
+    width: 100rem;
+    height: 1.2px;
+    color: black;
+    background-color: black;
+    overflow: hidden;
+}
+
+.productpagesubmitbutton{
+    position: absolute;
+    top: 216.7rem;
+    font-size: 7rem;
+    left: 10rem;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: 45rem;
+    height: 12rem;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.5s;
+    padding-top: 12px;
+    border-radius: 10rem;
+    /* -webkit-transition-property: box-shadow,tranform;*/
+}
+.productpagesubmitbutton:hover,.productpagesubmitbutton:focus,.productpagesubmitbutton:active{
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(0.5);
+}
+
+.heading_for_Details{
+    position: absolute;
+    top: 228rem;
+    font-size: 9rem;
+    left: 10rem;
+}
+
+.Details_line-1{
+    position: absolute;
+    top: 247rem;
+    left: 10rem;
+    width: 22rem;
+    height: 1.5rem;
+    background-color: black;
+    border-radius: 2rem;
+    z-index: 1;
+}
+.Details_line-2{
+    position: absolute;
+    top: 247.4rem;
+    left: 13.9rem;
+    width: 93rem;
+    height: 2.2px;
+    background-color: black;
+    border-radius: 2rem;
+}
+.Details_para{
+    position: absolute;
+    top: 186.4rem;
+    left: 10.9rem;
+    width: 74rem;
+    font-size: 2.5rem;
+
+}
+.Details_para1{
+    position: absolute;
+    top: 250.4rem;
+    left: 10.9rem;
+    width: 74rem;
+    font-size: 4.5rem;
+}
+.Details_para2{
+    position: absolute;
+    top: 286.4rem;
+    left: 11rem;
+    width: 74rem;
+    font-size: 4.5rem;
+}
+
+
+
+
+
+.social-menu ul{
+    position: absolute;
+    top: 365rem;
+    left: 57rem;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%,-50%);
+    display: flex;
+  }
+.social-menu ul li{
+    list-style: none;
+    margin: 0 15px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    }
+
+.social-menu ul li .fa{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color: #000;
+
+}
+.social-menu ul li .fa:hover{
+    color: #fff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    background-color: #fff;
+    text-align: center;
+    transition: 0.6s;
+    box-shadow: 0 6px 4px rgba(0,0,0,.5);
+}
+.social-menu ul li a:hover{
+    transform: translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover{
+  background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover{
+    background-color:#55acee;
+    }
+.social-menu ul li:nth-child(3) a:hover{
+    background-color:#e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover{
+   background-color:#0077B5;
+  }
+  .copyright{
+    position: absolute;
+    background: white;
+    width: 16rem;
+    text-align: center;
+    top: 369rem;
+    font-size: 16rem;
+    left: 54rem;
+  }
+.copyright p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}

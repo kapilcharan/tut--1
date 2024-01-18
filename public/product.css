@@ -1,0 +1,268 @@
+body{
+    background-color: white;
+    height: 300rem;
+} 
+
+html{
+    font-size: 62.5%;
+} 
+
+/* /* SECTION 1 HOME */
+
+#div1{
+    position: fixed;
+    top: -0.3rem;
+    background-color: #F5F5F5;
+    z-index: 1;
+    box-sizing: border-box;
+    width: 149.4rem;
+    height: 8.4rem;
+    left: -15rem;
+}
+#logo1{
+    position: relative;
+    left: 33.0rem;
+    top: 1.0rem;
+}
+#companyname{
+    position: relative;
+    left: 7.8rem;
+    top: -7.1rem;
+    font-size: 2.2rem;
+    font-style: italic;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    left: 80.3rem;
+    top: -11.2rem;
+}
+.navbarrsp{
+    display: none;
+
+}
+.a{
+    position: relative;
+    color: black;
+    margin: 2.8rem;
+    top: -1.0rem;
+    border: 22.6rem;
+    font-size: 2.2rem; 
+    font-style: italic;
+    text-decoration-line: none;
+}
+.img1{
+    width: 7.0rem;
+    height: 7.0rem;
+    border-radius: 1.0rem;
+}
+
+/*         DIV 2         */
+
+#div2{                                           
+    /* background: center no-repeat url(./img/frontpageimg.jpg); */
+    background-color: #0009;
+    height: 63rem;
+    width: 133.4rem;
+    position: relative;
+    top: -1.6rem;
+    /* opacity: 0.6; */
+
+}
+.fontpageimg{
+    position: absolute;
+    width: 133.5rem;
+    top: -12rem;
+    z-index: -1;
+    height: 75rem;
+}
+.fronpageh1{
+    position: absolute;
+    color: black;
+    z-index: 0;
+    top: 19rem;
+    font-size: 7rem;
+    left: 58rem;
+}
+
+/*              SECTION 2          */
+
+.section2img{
+    position: absolute;
+    top: 1rem;
+    width: 71rem;
+    height: 53rem;
+    left: 1rem;
+}
+#section2{
+    background-color:#FAE3D9;
+    width: 131.6rem;
+    height: 55rem;
+    position: relative;
+    top: 1.6rem;
+}
+span {
+    content: "\276F";
+  }
+.section2imageleft{
+    position: absolute;
+    height: 7rem;
+    font-size: 5rem;
+    left: .2rem;
+    /* background: white; */
+    top: 42%;
+    width: 3rem;
+    padding: 0.8rem 1.8rem;
+    justify-items: center;
+    margin: 0rem;
+    border-radius: 50%;
+}
+.section2imagerigth{
+    position: absolute;
+    height: 7rem;
+    font-size: 5rem;
+    left: 67rem;
+    /* background: white; */
+    top: 42%;
+    width: 3rem;
+    padding: 0.8rem 1.8rem;
+    justify-items: center;
+    margin: 0rem;
+    border-radius: 50%;
+}
+.section2div3h1{
+    top: -1rem;
+    position: absolute;
+    left: 87rem;
+    font-size: 3.5rem;
+}
+.section2div3p1{
+    position: absolute;
+    top: 9rem;
+    left: 77rem;
+    font-size: 2.7rem;
+    width: 55rem;
+
+}
+.section2div3p2{
+    position: absolute;
+    top: 17rem;
+    left: 72rem;
+    font-size: 1.7rem;
+    width: 60rem;
+}
+#section2div3p1btn1{
+    display: none;
+}
+#section2div3p1btn2{
+    display: none;
+}
+#p1{
+    display: none;
+}
+.section2div3line{
+    position: absolute;
+    top: 6rem;
+    width: 12rem;
+    left: 92rem;
+    height: 0.2rem;
+    color: black;
+    background: black;
+
+}
+
+.section2btn1{
+    position: absolute;
+    top: 47rem;
+    left: 99rem;
+    text-decoration: none;
+    font-size: 2.5rem;
+    /* background: ; */
+    width: 13rem;
+}
+
+/*      SECTION 3       */
+#section3{
+    background-color: #BBE1FA;
+    background-color:#FAE3D9;
+
+    width: 133.6rem;
+    height: 53rem;
+    position: relative;
+    top: 5.6rem;
+}
+.section3img{
+    position: absolute;
+    top: 0rem;
+    width: 70rem;
+    height: 53rem;
+}
+.section3div3h1{
+    top: -1rem;
+    position: absolute;
+    left: 84rem;
+    font-size: 3.5rem;
+}
+.section3div3p2{
+    position: absolute;
+    top: 17rem;
+    left: 72rem;
+    font-size: 1.7rem;
+    width: 60rem;
+}
+#section3div3p1btn1{
+    display: none;
+}
+#section3div3p1btn2{
+    display: none;
+}
+.section3imageleft{
+    position: absolute;
+    height: 7rem;
+    font-size: 5rem;
+    left: .2rem;
+    background: white;
+    top: 42%;
+    width: 3rem;
+    padding: 0.8rem 1.8rem;
+    justify-items: center;
+    margin: 0rem;
+    border-radius: 50%;
+}
+.section3imagerigth{
+    position: absolute;
+    height: 7rem;
+    font-size: 5rem;
+    left: 63rem;
+    background: white;
+    top: 42%;
+    width: 3rem;
+    padding: 0.8rem 1.8rem;
+    justify-items: center;
+    margin: 0rem;
+    border-radius: 50%;
+}
+#p2{
+    display: none;
+}
+.section3div3p1{
+    position: absolute;
+    top: 7rem;
+    left: 73rem;
+    font-size: 2.7rem;
+    width: 59rem;
+
+}
+.section3div3line{
+    position: absolute;
+    top: 6rem;
+    width: 14rem;
+    left: 92rem;
+    height: 0.2rem;
+    color: black;
+    background: black;
+
+}

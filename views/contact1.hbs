@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/public/contact1.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="/public/contactphone.css">
+    <link  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body >
+a
+    <section id="Section1" >
+        <div id="div1">
+        <div id="logo1">
+            <img class="img1"
+            src="/public/img/website_logo.png" alt="">
+            <h3 id="companyname"> E-Sustain Power Pvt. Ltd.
+            </h3>
+        </div>
+        <div class="navbar" id="navbarrsp" >
+            <p class="nav1" id="nav1"><a href="/public/home.html" class="a" id="a1">Home</a></p>
+            <!-- <p class="nav1" id="nav1"><a href="" class="a" id="a1">product ^ </a></p> -->
+            <!-- <p class="nav1" id="nav1"><a href="product.html" class="a" id="a2"> product ^ </p> -->
+              <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Product </button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="/public/product1.html">Solar Dryer</a>
+                  <a href="/public/product2html">Rechargeable Battery</a>
+                  {{!-- <a href="#">product 3</a> --}}
+                </div>
+            </div>
+            <p class="nav2" id="nav2"><a href="/public/contact.html" class="a" id="a3">Contact Us</a></p>
+            <p class="nav3" id="nav3"><a href="/public/about.html" class="a" id="a4">About US</a></p>
+            <p class="nav4" id="nav4"><a href="/public/team.html" class="a" id="a5">Team</a></p>
+        </div>
+    
+        <div class="threedot">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+        </div>
+        </div>
+        <div id="div2" data-aos="zoom-in" data-aos-duration="3000">
+            <img src="/public/img/solar.jpg" alt="" class="fontpageimg">
+                      
+        </div>
+        <div id="div3">
+                <section class="text">
+                  <h1 id="contact">Contact Us</h1>
+                   <p id="cost">Have a Question or Concern? Contact us using the following details <br> and we will get back to you as soon as possible.
+                  </p> 
+                  <p id="call">Call:(+91)1234567891</p> 
+        </div>
+       </section>
+       <section class="container" >
+        <header>FILL THE FORM FOR ANY QUERY</header>
+    
+
+    <form action="/formsubmission" method="POST">
+        <label for="fullName">Full Name:</label>
+        <input type="text" style="height: 9rem;" "fullName" name="fullName" required><br><br>
+
+        <label for="emailAddress">Email Address:</label>
+        <input type="email" id="emailAddress" name="emailAddress" required><br><br>
+
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="streetAddressLine1">Street Address Line 1:</label>
+        <input type="text" id="streetAddressLine1" name="address.streetAddressLine1" required><br><br>
+
+        <label for="streetAddressLine2">Street Address Line 2:</label>
+        <input type="text" id="streetAddressLine2" name="address.streetAddressLine2" required><br><br>
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="address.country" required><br><br>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="address.city" required><br><br>
+
+        <label for="region">Region:</label>
+        <input type="text" id="region" name="address.region" required><br><br>
+
+        <label for="postalCode">Postal Code:</label>
+        <input type="text" id="postalCode" name="address.postalCode" required><br><br>
+
+        <label for="product">Product of Interest:</label>
+        <select id="product" name="product" required>
+            <option value="Solar Dryer">Solar Dryer</option>
+            <option value="Battery">Battery</option>
+        </select><br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            <div class="social-menu">
+              <ul>
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                   </ul>
+            </div>
+            {{!-- <div class="copyright">    
+                  <p>copyright &copy;2023 Sun Ojas Pvt. Ltd.</p>
+            </div> --}}
+      
+          
+      </section>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="Include a script tag to https://smtpjs.com/v3/smtp.js"></script>
+      <script src="/public/AOS.js"></script>
+
+
+</body>
+</html>

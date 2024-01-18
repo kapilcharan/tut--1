@@ -1,0 +1,470 @@
+
+    .threedot{
+        display: block;
+    }
+    .line{
+        width: 12.2rem;
+    background-color: black;
+    height: 11px;
+    margin: 19px 12px;
+    position: relative;
+    top: -29rem;
+    z-index: 1;
+    left: 127rem;
+
+    }
+    body{
+        background-color: white;
+        /* height: 11111rem; */
+    } 
+    
+    html{
+        font-size: 62.5%;
+    } 
+    
+    /* SECTION 1 HOME */
+
+
+
+    .dropbtn {
+        position: relative;
+    color: white;
+    margin: 2.8rem;
+    top: 64rem;
+    left: 0;
+    border: 22.6rem;
+    font-size: 8.4rem;
+    font-style: italic;
+    text-decoration-line: none;
+    background: transparent;
+    text-decoration: none;
+       }
+       
+       /* The container <div> - needed to position the dropdown content */
+       .dropdown {
+        position: relative;
+        display: inline-block;
+       }
+       
+       /* Dropdown Content (Hidden by Default) */
+       .dropdown-content {
+        position: absolute;
+        background-color: rgb(36, 36, 37);
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        top: 64rem;
+        left: -60rem;
+        font-size: 8.4rem;
+        width: 60rem;
+       }
+       
+       
+       
+       /* Links inside the dropdown */
+       .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+       }
+       
+       /* Change color of dropdown links on hover */
+       .dropdown-content a:hover {background-color: #ddd;}
+       
+       /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+       .show {display:block;}
+    
+    #div1{
+        position: fixed;
+        top: -0.3rem;
+        background-color: #F5F5F5;
+        z-index: 1;
+        box-sizing: border-box;
+        width: 112%;
+        height: 35rem;
+    }
+    #logo1{
+        position: relative;
+    left: 35rem;
+    top: 0rem;
+    }
+    #companyname{
+        position: relative;
+        left: 13.8rem;
+        top: -139px;
+        font-size: 5.5rem;
+    font-style: italic;
+    font-family: "Gill Sans", sans-serif;
+    }
+    .navbar{
+        opacity: 0;
+    }
+    #navbarrsp{
+        background-color: rgb(36, 36, 37);
+    height: 161rem;
+    position: absolute;
+    top: 0rem;
+    width: 68rem;
+    right: 0;
+    border-radius: 92px;
+    } 
+    #a1{
+        color: white;
+    position: absolute;
+    top: 48rem;
+    font-size: 84px;
+    font-style: normal;
+    left: 0rem;
+    text-decoration-line: none;
+    }
+    #a2{
+        color: white;
+    position: absolute;
+    top: 64rem;
+    font-size: 84px;
+    font-style: normal;
+    left: 0rem;
+    text-decoration-line: none;
+    }
+    #a3{
+        color: white;
+    position: absolute;
+    top: 80rem;
+    font-size: 84px;
+    font-style: normal;
+    left: 0rem;
+    text-decoration-line: none;
+    }
+    #a4{
+        color: white;
+    position: absolute;
+    top: 96rem;
+    font-size: 84px;
+    font-style: normal;
+    left: 0rem;
+    text-decoration-line: none;
+    }
+    #a5{
+        color: white;
+    position: absolute;
+    top: 112rem;
+    font-size: 84px;
+    font-style: normal;
+    left: 0rem;
+    text-decoration-line: none;
+    }
+    .img1{
+        width: 24rem;
+    height: 23.5rem;
+    border-radius: 1rem;
+    position: relative;
+    top: 6.5rem;
+    }
+    #div2{                                           
+        /* background: center no-repeat url(./img/frontpageimg.jpg); */
+        background-color: #0009;
+        height: 192rem;
+        width: 386%;
+        position: relative;
+        top: -1.6rem;
+        /* opacity: 0.6; */
+    
+    }
+    .fontpageimg{
+        position: absolute;
+    width: 153.5rem;
+    top: -12rem;
+    z-index: -1;
+    height: 204rem;
+    }
+    .fronpageh1{
+        
+        position: absolute;
+    color: white;
+    z-index: 0;
+    top: 55rem;
+    font-size: 7rem;
+    left: 8rem;
+    }
+    .frontpagepera{
+        position: absolute;
+    color: white;
+    z-index: 0;
+    top: 63rem;
+    font-size: 8rem;
+    left: 8rem;
+    }
+    .b1{
+        position: absolute;
+    top: 85rem;
+    /* font-size: 2rem; */
+    left: 10rem;
+    text-decoration: none;
+    background-color: #0c71c3;
+    border-radius: 9rem;
+    height: 95px;
+    width: 25rem;
+    font-size: 4rem;
+    border: 0rem;
+    transition-property: all;
+    transition: 0.7s;
+    }
+    .b1:hover{
+        background-color: darkslateblue;
+        transform: translateY(4px);
+        width: 20rem;
+        
+    }
+    .Section2{
+        height: 59rem;
+        /* background-color: white; */
+        /* opacity: 0.4; */
+    }
+    .homepagesection2dev1{
+        position: relative;
+        top: 14rem;
+        height: 16rem;
+        width: 53rem;
+        left: 19rem;
+    }
+    .homepagesection2h1{
+        font-size: 11rem;
+        position: relative;
+        top: -4rem;
+        left: -6rem;
+        white-space: nowrap;
+    text-overflow: ellipsis;
+    }
+    .homepagesection2h2{
+        font-size: 13rem;
+    position: relative;
+    top: -3rem;
+    left: 25rem;
+    }
+    .homepagesection2p1{
+        font-size: 7rem;
+    position: relative;
+    top: -2rem;
+    left: -7.5rem;
+    width: 250%;
+    }
+    .poster1{
+        position: relative;
+    height: 62rem;
+    top: 0rem;
+    left: -4rem;
+    width: 102rem;
+    }
+    
+    
+    /*              SECTION 3          */
+.section3{
+    position: relative;
+    top: -24rem;
+}
+
+.section3div1{
+    height: 151rem;
+    width: 318%;
+    position: relative;
+    left: 11rem;
+    top: 372rem;
+    border-radius: 3rem;
+    border: 2px solid black;
+    transition-duration: 0.4s;
+
+}
+.section3div1:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    transform: scale(0.9);
+}
+.section3div2{
+    height: 151rem;
+    width: 318%;
+    position: relative;
+    left: 11rem;
+    top: 380rem;
+    border-radius: 3rem;
+    border: 2px solid black;
+    transition-duration: 0.4s;
+
+}
+.section3div2:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    transform: scale(0.9);
+}
+
+.section3product1img{
+    width: 119.67rem;
+    height: 75rem;
+    position: absolute;
+    left: 0px;
+    border-radius: 2rem;
+    border: 1px solid black
+}
+.section3product2img{
+    width: 119.67rem;
+    height: 75rem;
+    position: absolute;
+    left: 0px;
+    border-radius: 2rem;
+    border: 1px solid black
+}
+.section3product1h1{
+    font-size: 3rem;
+    position: absolute;
+    top: 28rem;
+    left: 1rem;
+}
+.section3product1price{
+    font-size: 3rem;
+    position: absolute;
+    top: 31.5rem;
+    left: 1rem;
+
+}
+.section3product1info{
+    position: absolute;
+    top: 73rem;
+    font-size: 5rem;
+    left: 10px;
+}
+.section3product1orderbutton{
+    position: absolute;
+    top: 50.5rem;
+    font-size: 30px;
+    left: 4rem;
+    text-decoration: none;
+    color: black;
+}
+.section3product1morebutton{
+    position: absolute;
+    top: 50.5rem;
+    font-size: 30px;
+    left: 35rem;
+    text-decoration: none;
+    color: black;
+}
+
+    
+    
+       /*       SECTION 4      */
+    .section4{
+        height: 70rem;
+    }
+    .homepagesection4dev1{
+        position: relative;
+        left: -2rem;
+        width: 396%;
+        overflow: hidden;
+        /* background: red; */
+        height: 300rem;
+        top: 200rem;
+    }
+    .homepagesection4h1{
+        font-size: 13rem;
+        position: absolute;
+        left: 13rem;
+        top: -5rem;
+    }
+    /* .homepagesection4h2{
+        font-size: 13rem;
+    position: relative;
+    left: 46rem;
+    top: -28.4rem;
+    width: 13rem;
+    } */
+    .homepagesection4p1{
+        font-size: 7rem;
+        position: absolute;
+        top: 21rem;
+        left: 13rem;
+        width: 117rem;
+    }
+    .poster2{
+        position: relative;
+        height: 62rem;
+        top: 170rem;
+        left: 16rem;
+        width: 102rem;
+        overflow: hidden;
+    }
+    
+    
+    /*        SECTION 5       */
+    .section5{
+        height: 60rem;
+        /* background-color: black; */
+        position: relative;
+        top: 405rem;
+    }
+    .section5div2{
+        position: relative;
+    top: -136.2rem;
+    background-color: #0009;
+    width: 133.4rem;
+    height: 125rem;
+    
+    }
+    
+    .section5img1{
+        height: 126rem;
+    position: relative;
+    top: -10rem;
+    z-index: -1;
+    width: 133.4rem;
+    }
+    .section4h1{
+        position: absolute;
+        top: 2rem;
+        left: 24rem;
+        font-size: 9.5rem;
+        color: wheat;
+        width: 89rem;
+    }
+    
+    .hr1{
+        position: absolute;
+        width: 13rem;
+        height: 0.2rem;
+        background: white;
+        top: 56rem;
+        left: 47rem;
+    }
+    .section5p1{
+        position: absolute;
+    top: 56rem;
+    color: white;
+    font-size: 8rem;
+    left: 22rem;
+    width: 99rem;
+    }
+    .section5p2{
+        position: absolute;
+    top: 76rem;
+    color: white;
+    font-size: 8rem;
+    left: 25rem;
+    }
+    .section5div3{
+        position: absolute;
+    top: 106rem;
+    color: white;
+    background-color: black;
+    width: 134.4rem;
+    height: 22rem;
+    }
+    .section5div3img1{
+        width: 7rem;
+        height: 7rem;
+        border-radius: 1rem;
+        position: relative;
+        top: 1rem;
+        left: 19rem;
+    }
+    #section5div3companyname{
+        position: absolute;
+        top: 1.5rem;
+        left: 27rem;
+        font-size: 2rem;
+    }

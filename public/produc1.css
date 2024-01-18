@@ -1,0 +1,346 @@
+body{
+    align-items: center;   
+    background: white;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+} 
+
+html{
+   font-size: 62.5%;
+} 
+
+/* /* SECTION 1 HOME */
+.dropbtn {
+ position: relative;
+   color: black;
+   margin: 2.8rem;
+   top: -29px;
+   left: 0;
+   border: 22.6rem;
+   font-size: 2.2rem;
+   font-style: italic;
+   text-decoration-line: none;
+   background: transparent;
+   text-decoration: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+ position: relative;
+ display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: #F5F5F5;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+ top: 5.6rem;
+ left: 12px;
+ font-size: 2.2rem; 
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+#div1{
+   position: fixed;
+   top: -0.3rem;
+   background-color: #F5F5F5;
+   z-index: 1;
+   box-sizing: border-box;
+   width: 171.4rem;
+   height: 9.5rem;
+   left: -15rem;
+}
+#logo1{
+   position: relative;
+   left: 33.0rem;
+   top: 1.0rem;
+}
+#companyname{
+   position: relative;
+   left: -4rem;
+   top: -6rem;
+   font-size: 2.2rem;
+   font-style: italic;
+   color:blue;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+   display: flex;
+   list-style-type: none;
+   position: relative;
+   left: 80.3rem;
+   top: -10rem;
+   color: #F6F1F1;
+}
+.navbarrsp{
+   display: none;
+
+}
+.a{
+   position: relative;
+   color: black;
+   margin: 2.8rem;
+   top: -1.0rem;
+   border: 22.6rem;
+   font-size: 2.2rem; 
+   font-style: italic;
+   text-decoration-line: none;
+}
+.img1{
+   width: 9.0rem;
+   height: 7.0rem;
+   border-radius: 1.0rem;
+   margin-left: -14rem;
+}
+
+.nevbarforproduct{
+    position: absolute;
+    top: 12rem;
+    font-size: 2rem;
+    left: 5rem;
+
+}
+.nevabarforproduc1{
+    color: black;
+    text-decoration: none;
+
+    
+}
+
+
+/* section 2 */
+
+.product1img1{
+    width: 54rem;
+    height: 27rem;
+    position: absolute;
+    top: 16rem;
+    left: 4rem;
+    filter: drop-shadow(black 2px 4px 6px)
+
+}
+#product1img1small{
+    height: 8rem;
+    width: 16rem;
+    position: absolute;
+    top: 46rem;
+    left: 3rem;
+    filter: drop-shadow(black 2px 4px 3px)
+}
+#product1img2small{
+    height: 8rem;
+    width: 16rem;
+    position: absolute;
+    top: 46rem;
+    left: 23rem;
+    filter: drop-shadow(black 2px 4px 3px)
+}
+#product1img3small{
+    height: 8rem;
+    width: 16rem;
+    position: absolute;
+    top: 46rem;
+    left: 42rem;
+    filter: drop-shadow(black 2px 4px 3px)
+}
+.productname1{
+    position: absolute;
+    top: 12.7rem;
+    font-size: 4rem;
+    left: 69rem;
+}
+.produc1para{
+    position: absolute;
+    top: 21.7rem;
+    font-size: 1.6rem;
+    left: 69rem;
+    width: 47rem;
+}
+.productname2{
+    position: absolute;
+    top: 35.7rem;
+    font-size: 2.5rem;
+    left: 69rem;
+}
+
+.productpageline1{
+    position: absolute;
+    top: 39.7rem;
+    font-size: 4rem;
+    left: 69rem;
+    width: 50rem;
+    height: 0.2px;
+    color: black;
+    background-color: black;
+    overflow: hidden;
+}
+
+.productpagesubmitbutton{
+    position: absolute;
+    top: 46.7rem;
+    font-size: 3rem;
+    left: 69rem;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: 19rem;
+    height: 5rem;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.5s;
+    padding-top: 12px;
+    border-radius: 10rem;
+    /* -webkit-transition-property: box-shadow,tranform; */
+}
+.productpagesubmitbutton:hover,.productpagesubmitbutton:focus,.productpagesubmitbutton:active{
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(0.5);
+}
+
+.heading_for_Details{
+    position: absolute;
+    top: 54rem;
+    font-size: 3rem;
+    left: 6rem;
+}
+
+.Details_line-1{
+    position: absolute;
+    top: 60rem;
+    left: 6rem;
+    width: 9rem;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 2rem;
+    z-index: 1;
+}
+.Details_line-2{
+    position: absolute;
+    top: 60.4rem;
+    left: 13.9rem;
+    width: 105rem;
+    height: 0.2px;
+    background-color: black;
+    border-radius: 2rem;
+}
+.Details_para{
+    position: absolute;
+    top: 60.4rem;
+    left: 5.9rem;
+    width: 74rem;
+    font-size: 1.5rem;
+
+}
+.Details_para1{
+    position: absolute;
+    top: 69.4rem;
+    left: 5.9rem;
+    width: 74rem;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+.social-menu ul{
+    position: absolute;
+    top: 103rem;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform:translate(-50%,-50%);
+    display: flex;
+  }
+.social-menu ul li{
+    list-style: none;
+    margin: 0 15px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    }
+
+.social-menu ul li .fa{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color: #000;
+
+}
+.social-menu ul li .fa:hover{
+    color: #fff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    background-color: #fff;
+    text-align: center;
+    transition: 0.6s;
+    box-shadow: 0 6px 4px rgba(0,0,0,.5);
+}
+.social-menu ul li a:hover{
+    transform: translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover{
+  background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover{
+    background-color:#55acee;
+    }
+.social-menu ul li:nth-child(3) a:hover{
+    background-color:#e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover{
+   background-color:#0077B5;
+  }
+  .copyright{
+    position: absolute;
+    background: white;
+    width: 27rem;
+    text-align: center;
+    top: 107rem;
+    font-size: 16rem;
+    left: 46rem;
+  }
+.copyright p{
+    /* font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize; */
+    display: none;
+}
+
+
+.Details_para1 {
+    position: absolute;
+    top: 65rem;
+    left: 6rem;
+    font-size: 2rem;
+}
+.Details_para2 {
+    position: absolute;
+    top: 74rem;
+    left: 6rem;
+    font-size: 2rem;
+}

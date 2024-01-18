@@ -1,0 +1,356 @@
+
+.threedot{
+    display: block;
+}
+.line{
+    width: 12.2rem;
+background-color: black;
+height: 11px;
+margin: 19px 12px;
+position: relative;
+top: -29rem;
+z-index: 1;
+left: 127rem;
+
+}
+body{
+    background-color: white;
+    /* height: 11111rem; */
+} 
+
+html{
+    font-size: 62.5%;
+} 
+
+/* SECTION 1 HOME */
+
+#div1{
+    position: fixed;
+    top: -0.3rem;
+    background-color:#F5F5F5;
+    z-index: 1;
+    box-sizing: border-box;
+    width: 149.4rem;
+    height: 36.5rem;
+}
+#logo1{
+    position: relative;
+left: 26rem;
+top: 1rem;
+}
+#companyname{
+    position: relative;
+left: 25.8rem;
+top: -160px;
+font-size: 6.5rem;
+font-style: italic;
+font-family: "Gill Sans", sans-serif;
+}
+.navbar{
+    opacity: 0;
+}
+#navbarrsp{
+    background-color: rgb(36, 36, 37);
+height: 1000px;
+position: absolute;
+top: 0px;
+width: 68rem;
+right: 0;
+border-radius: 92px;
+} 
+#a1{
+    color: white;
+position: absolute;
+top: 16rem;
+font-size: 84px;
+font-style: normal;
+left: 0rem;
+text-decoration-line: none;
+}
+#a2{
+    color: white;
+position: absolute;
+top: 32rem;
+font-size: 84px;
+font-style: normal;
+left: 0rem;
+text-decoration-line: none;
+}
+#a3{
+    color: white;
+position: absolute;
+top: 48rem;
+font-size: 84px;
+font-style: normal;
+left: 0rem;
+text-decoration-line: none;
+}
+#a4{
+    color: white;
+position: absolute;
+top: 64rem;
+font-size: 84px;
+font-style: normal;
+left: 0rem;
+text-decoration-line: none;
+}
+#a5{
+    color: white;
+position: absolute;
+top: 79rem;
+font-size: 84px;
+font-style: normal;
+left: 0rem;
+text-decoration-line: none;
+}
+.img1{
+    width: 24rem;
+height: 23.5rem;
+border-radius: 1rem;
+position: relative;
+top: 6.5rem;
+}
+#div2{                                           
+    /* background: center no-repeat url(./img/frontpageimg.jpg); */
+    background-color: #0009;
+height: 192rem;
+width: 133.4rem;
+position: relative;
+top: -1.6rem;
+    /* opacity: 0.6; */
+
+}
+.fontpageimg{
+    position: absolute;
+width: 133.5rem;
+top: -12rem;
+z-index: -1;
+height: 204rem;
+}
+.fronpageh1{
+    
+    position: absolute;
+color: white;
+z-index: 0;
+top: 55rem;
+font-size: 13rem;
+left: 28rem;
+
+}
+.frontpagepera{
+    position: absolute;
+color: white;
+z-index: 0;
+top: 73rem;
+font-size: 10rem;
+left: 33rem;
+}
+.b1{
+    position: absolute;
+top: 104rem;
+/* font-size: 2rem; */
+left: 29rem;
+text-decoration: none;
+background-color: #0c71c3;
+border-radius: 9rem;
+height: 209px;
+width: 67rem;
+font-size: 9rem;
+border: 0rem;
+transition-property: all;
+transition: 0.7s;
+}
+.b1:hover{
+    background-color: darkslateblue;
+    transform: translateY(4px);
+    width: 20rem;
+    
+}
+.Section2{
+    height: 59rem;
+    /* background-color: white; */
+    /* opacity: 0.4; */
+}
+.homepagesection2dev1{
+    position: relative;
+    top: 14rem;
+    height: 16rem;
+    width: 53rem;
+    left: 19rem;
+}
+.homepagesection2h1{
+    font-size: 11rem;
+    position: relative;
+    top: -4rem;
+    left: -6rem;
+    width: 111rem;
+}
+.homepagesection2h2{
+    font-size: 13rem;
+position: relative;
+top: -3rem;
+left: 25rem;
+}
+.homepagesection2p1{
+    font-size: 7rem;
+    position: relative;
+    top: -2rem;
+    left: -7.5rem;
+    width: 116rem;
+}
+.poster1{
+    position: relative;
+height: 62rem;
+top: 173rem;
+left: 16rem;
+width: 102rem;
+}
+
+
+/*              SECTION 3          */
+.Section3{
+    position: relative;
+    top: 11rem;
+}
+.logo2{
+    position: relative;
+width: 36rem;
+left: 46rem;
+border-radius: 12rem;
+top: 325rem;
+}
+.section3companyname{
+    position: relative;
+    left: 11rem;
+    font-size: 11rem;
+    top: 317rem;
+    width: 125rem;
+
+}
+.section3para1{
+    position: relative;
+top: 315rem;
+left: 11rem;
+font-size: 7rem;
+width: 122rem;
+}
+
+
+   /*       SECTION 4      */
+.section4{
+    height: 70rem;
+}
+.homepagesection4dev1{
+    position: relative;
+left: -3rem;
+top: 91rem;
+width: 132rem;
+overflow: hidden;
+}
+.homepagesection4h1{
+    font-size: 13rem;
+    position: relative;
+    left: 13rem;
+    top: 35rem;
+}
+.homepagesection4h2{
+    font-size: 13rem;
+position: relative;
+left: 46rem;
+top: -28.4rem;
+width: 13rem;
+}
+.homepagesection4p1{
+    font-size: 7rem;
+position: relative;
+top: 32rem;
+left: 13rem;
+width: 117rem;
+}
+.poster2{
+    position: relative;
+height: 62rem;
+top: 325rem;
+left: 16rem;
+width: 102rem;
+overflow: hidden;
+}
+
+
+/*        SECTION 5       */
+.section5{
+    height: 60rem;
+    /* background-color: black; */
+    position: relative;
+    top: 335rem;
+}
+.section5div2{
+    position: relative;
+top: -136.2rem;
+background-color: #0009;
+width: 133.4rem;
+height: 125rem;
+
+}
+
+.section5img1{
+    height: 126rem;
+position: relative;
+top: -10rem;
+z-index: -1;
+width: 133.4rem;
+}
+.section4h1{
+    position: absolute;
+    top: 2rem;
+    left: 24rem;
+    font-size: 9.5rem;
+    color: wheat;
+    width: 89rem;
+}
+
+.hr1{
+    position: absolute;
+    width: 13rem;
+    height: 0.2rem;
+    background: white;
+    top: 56rem;
+    left: 47rem;
+}
+.section5p1{
+    position: absolute;
+top: 56rem;
+color: white;
+font-size: 8rem;
+left: 22rem;
+width: 99rem;
+}
+.section5p2{
+    position: absolute;
+top: 76rem;
+color: white;
+font-size: 8rem;
+left: 25rem;
+}
+.section5div3{
+    position: absolute;
+top: 106rem;
+color: white;
+background-color: black;
+width: 134.4rem;
+height: 22rem;
+}
+.section5div3img1{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 1rem;
+    position: relative;
+    top: 1rem;
+    left: 19rem;
+}
+#section5div3companyname{
+    position: absolute;
+    top: 1.5rem;
+    left: 27rem;
+    font-size: 2rem;
+}

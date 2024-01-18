@@ -1,0 +1,787 @@
+
+/* /* SECTION 1 HOME */
+.dropbtn {
+  position: relative;
+    color: black;
+    margin: 2.8rem;
+    top: -32px;
+    left: -42rem;
+    border: 22.6rem;
+    font-size: 1.6rem;
+    font-style: italic;
+    text-decoration-line: none;
+    background: transparent;
+    text-decoration: none;
+ }
+ 
+ /* The container <div> - needed to position the dropdown content */
+ .dropdown {
+  position: relative;
+  display: inline-block;
+ }
+ 
+ /* Dropdown Content (Hidden by Default) */
+ .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F5F5F5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 4.6rem;
+  left: -41rem;
+  font-size: 2rem;
+  width: 14rem;
+ }
+ 
+ 
+ /* Links inside the dropdown */
+ .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+ }
+ 
+ /* Change color of dropdown links on hover */
+ .dropdown-content a:hover {background-color: #ddd;}
+ 
+ /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+ .show {display:block;}
+
+
+
+
+
+
+
+
+
+#div1{
+  position:fixed;
+  top: -0.3rem;
+  background-color: #eee2e2;
+  z-index: 1;
+  box-sizing: border-box;
+  width: 171.4rem;
+  height: 6.5rem;
+  left: 0rem;
+}
+#logo1{
+  position: relative;
+  left: 10rem;
+  top: 1.8rem;
+  color: rgb(56, 56, 193);
+}
+.navbar{
+  display: flex;
+  list-style-type: none;
+  position: relative;
+  left: 80.3rem;
+  top:-2rem;
+  color: #F6F1F1;
+}
+
+.a{
+  position: relative;
+  color: black;
+  margin: 2rem;
+  top: 0rem;
+left: -669px;
+  font-size: x-large;
+  font-style: italic;
+  text-decoration-line: none;
+}
+.logoimg1{
+  width: 7.5rem;
+  height: 5.0rem;
+  position: absolute;
+ margin-left: -130px;
+ margin-top: -45px;
+ border-radius: 1.0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.responsive-container-block {
+  font-size: 62.5%;
+position: relative;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  display: flex;
+ 
+  margin-top: -5px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  justify-content: flex-start;
+  
+}
+
+  .aname{
+    font-size: 22px;
+  line-height: 35px;
+  font-weight: 700;
+  color: rgb(102, 102, 102);
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  margin-left: 15%;
+  }
+  .aeducation{
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 700;
+    margin-top: -5px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+  }
+  
+.team {
+  padding-top: 52px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  background-color:white lightblue gainsboro;
+  
+}
+
+
+.tittle {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 35px;
+  color: rgb(51, 51, 51);
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 32px;
+  margin-left: 0px;
+  text-align: center;
+}
+.tittle01 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 35px;
+  color: rgb(51, 51, 51);
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 32px;
+  margin-left: 0px;
+  text-align: center;
+}
+
+.tittle1 {
+  max-width: 470px;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  font-weight: 700;
+  color: rgb(102, 102, 102);
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 100px;
+  margin-left: 0px;
+  margin: 0 0 70px 0;
+}
+
+.team1 {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+}
+
+.team-member-img{
+  color: white;
+  box-shadow: 6px 6px 8px #000000;
+}
+
+.name {
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 700;
+  color: rgb(102, 102, 102);
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  margin-left: 15%;
+}
+
+
+.position {
+  color: rgb(244, 152, 146);
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 33%;
+}
+
+.position1 {
+  color: rgb(244, 152, 146);
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 25%;
+}
+.education {
+  color: rgb(102, 102, 102);
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 700;
+  margin-top: -5px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: -10px;
+}
+
+.social-media {
+  
+ display: flex;
+
+}
+.social-media-icon{
+  position: relative;
+  margin-top: 0px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+  margin-left: px;
+  cursor: pointer;
+  margin: 0 50px 10px 0;
+  left: 5rem;
+}
+
+.memberimg {
+  padding-top: 0px;
+  padding-right: 25px;
+  padding-bottom: 0px;
+  padding-left: 70px;
+  margin: 0 0 30px 0;
+  
+}  
+
+  .tittle{
+      font-size: xx-large;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+  }
+  .tittle1{
+      font-size:medium;
+  }
+
+
+
+
+
+
+  .tit{
+
+      font-size: 22px;
+    line-height: 28px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-left: 150px;
+  }
+  .techimg{
+      position: relative;
+       
+      justify-content: flex-start;
+
+  }
+    .imglink1{
+      position: relative;
+      margin-left: -145px;
+      color: white;
+  box-shadow: 6px 6px 8px #000000;
+    }
+   
+    
+.techname{
+  margin-left:-85px;
+}
+.techeducation{
+  margin-left:-200px;
+}
+.techposition{
+  margin-left:-75px;
+}
+
+
+
+.imglink2{
+  position: absolute;
+  margin-left: 350px;
+  margin-top: -516.55px;
+  color: white;
+  box-shadow: 6px 6px 8px #000000;
+}
+.techname{
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 700;
+  color: rgb(102, 102, 102);
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+}
+.techposition{
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 700;
+  color: rgb(102, 102, 102);
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+
+}
+.techeducation{
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 700;
+  color: rgb(102, 102, 102);
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+}
+.techname2{
+  position: relative;
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 700;
+  color: rgb(102, 102, 102);
+  margin-bottom: 5px;
+  left: 27rem;
+  top:-8.5rem;
+  
+  
+}
+.techposition2{
+  position: relative;
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 700;
+  color: rgb(102, 102, 102);
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  left: 28rem;
+  top: -10.2rem;
+
+}
+.techeducation2{
+  position: relative;
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 700;
+  color: rgb(102, 102, 102);
+  left: 20rem;
+  margin-bottom: 5px;
+  top:-9.5rem;
+}
+.social-media2{
+  position: relative;
+  left: 26rem;
+  top: -9.2rem;
+}
+.social-media-icon2 {
+  margin-top: 0px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  cursor: pointer;
+  margin: 0 25px 10px 0;
+}
+.social-media2{
+  display: flex;
+
+}
+.social-media1{
+  position: relative;
+  left: -6.8rem;
+  top: 1rem;
+}
+.social-media-icon1 {
+  margin-top: 0px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  cursor: pointer;
+  margin: 0 25px 10px 0;
+}
+.social-media1{
+  display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tit3{
+  position: relative;
+  top: -130px;
+  font-size: 22px;
+line-height: 28px;
+font-size: xx-large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: 160px;
+}
+.financeimg{
+  position: relative;
+   
+  justify-content: flex-start;
+
+}
+
+.imglink3{
+position: relative;
+margin-left: 94px;
+margin-top: -95px;
+color: white;
+  box-shadow: 6px 6px 8px #000000;
+}
+.financename{
+  position: relative;
+font-size: 22px;
+line-height: 35px;
+font-weight: 700;
+color: rgb(102, 102, 102);
+left: 175px;
+margin-bottom: 5px;
+}
+.financeposition{
+  position: relative;
+font-size: 22px;
+line-height: 35px;
+font-weight: 700;
+color: rgb(102, 102, 102);
+margin-top: 0px;
+margin-right: 0px;
+left: 183px;
+margin-bottom: 5px;
+
+}
+.financeeducation{
+  position: relative;
+  left:13px;
+font-size: 22px;
+line-height: 35px;
+font-weight: 700;
+color: rgb(102, 102, 102);
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 5px;
+}
+
+.social-media3{
+position: relative;
+left: 9rem;
+top: 1rem;
+
+}
+.social-media-icon3 {
+margin-top: 0px;
+margin-right: 25px;
+margin-bottom: 0px;
+margin-left: 0px;
+cursor: pointer;
+margin: 0 25px 10px 0;
+}
+.social-media3{
+display: flex;
+
+}
+
+
+
+
+
+
+
+
+.tit4{
+position: relative;
+  font-size: 22px;
+line-height: 28px;
+font-size: xx-large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-left: 2.5rem;
+margin-top: 4rem;
+}
+.primg{
+  position: relative;
+   
+  justify-content: flex-start;
+
+}
+.imglink4{
+  position: relative;
+  margin-left: -145px;
+  color: white;
+  box-shadow: 6px 6px 8px #000000;
+}
+
+
+.prname5{
+margin-left:-85px;
+}
+.preducation5{
+margin-left:-200px;
+}
+.prposition5{
+margin-left:-75px;
+}
+
+
+
+.imglink5{
+position: absolute;
+margin-left: 350px;
+margin-top: -538.55px;
+color: white;
+  box-shadow: 6px 6px 8px #000000;
+}
+.prname4{
+  position: relative;
+font-size: 22px;
+line-height: 35px;
+font-weight: 700;
+color: rgb(102, 102, 102);
+left: -4rem;
+margin-bottom: 5px;
+}
+.prposition4{
+  position: relative;
+  left: -50px;
+font-size: 22px;
+line-height: 35px;
+font-weight: 700;
+color: rgb(102, 102, 102);
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 5px;
+
+}
+.preducation4{
+  position: relative;
+  left: -12rem;
+font-size: 22px;
+line-height: 35px;
+font-weight: 700;
+color: rgb(102, 102, 102);
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 5px;
+}
+.prname5{
+position: relative;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 700;
+    color: rgb(102, 102, 102);
+    margin-bottom: 5px;
+    left: 31rem;
+    top: -8.5rem;
+
+
+}
+.prposition5{
+position: relative;
+font-size: 22px;
+line-height: 35px;
+font-weight: 700;
+color: rgb(102, 102, 102);
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 5px;
+left: 32.2rem;
+top: -10.2rem;
+
+}
+.preducation5{
+position: relative;
+position: relative;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 700;
+    color: rgb(102, 102, 102);
+    left: 31rem;
+    margin-bottom: 5px;
+    top: -9.5rem;
+
+}
+.social-media5{
+  position: relative;
+}
+.social-media-icon5 {
+  position: relative;
+  margin-top: 0px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+  left: 26rem;
+  top: -11rem;
+  cursor: pointer;
+  margin: 0 25px 10px 0;
+}
+.social-media5{
+  display: flex;
+
+}
+.social-media4{
+  position: relative;
+  left: -6.8rem;
+  top: 1rem;
+}
+.social-media-icon4 {
+  position: relative;
+  left: -1rem;
+  margin-top: 0px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  cursor: pointer;
+  margin: 0 25px 10px 0;
+}
+.social-media4{
+  display: flex;
+
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .tit5{
+    position: relative;
+    top: -130px;
+    font-size: 22px;
+  line-height: 28px;
+  font-size: xx-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 160px;
+  }
+  .webimg{
+    position: relative;
+     
+    justify-content: flex-start;
+  
+  }
+  
+  .imglink6{
+  position: relative;
+  margin-left: 183px;
+  margin-top: -95px;
+  color: white;
+  box-shadow: 6px 6px 8px #000000;
+  }
+  .webname{
+    position: relative;
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 700;
+  color: rgb(102, 102, 102);
+  left: 286px;
+  margin-bottom: 5px;
+  }
+  .webposition{
+    position: relative;
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 700;
+  color: rgb(102, 102, 102);
+  margin-top: 0px;
+  margin-right: 0px;
+  left: 163px;
+  margin-bottom: 5px;
+  
+  }
+  .webeducation{
+    position: relative;
+    left:143px;
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 700;
+  color: rgb(102, 102, 102);
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  }
+  .social-media53{
+    position: relative;
+    left: 15rem;
+    top: 1rem;
+  }
+  .social-media-icon6 {
+    position: relative;
+    left: -1rem;
+    margin-top: 0px;
+    margin-right: 25px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    cursor: pointer;
+    margin: 0 25px 10px 0;
+  }
+  .social-media6{
+    display: flex;
+  
+  }
+ 
+  
+  
+
+
+  .social-media33{
+    position: relative;
+    left: -1rem;
+    top: 2rem;
+  }

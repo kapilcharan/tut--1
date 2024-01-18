@@ -1,0 +1,281 @@
+.threedot{
+    display: block;
+}
+.line{
+    width: 12.2rem;
+background-color: black;
+height: 11px;
+margin: 19px 12px;
+position: relative;
+top: -29rem;
+z-index: 1;
+left: 127rem;
+}
+body{
+    background-color: rgb(239, 220, 220);
+} 
+
+html{
+    font-size: 62.5%;
+} 
+
+/* SECTION 1 HOME */
+
+#div1{
+    position: fixed;
+    top: -0.3rem;
+    background-color: #F5F5F5;
+    z-index: 1;
+    box-sizing: border-box;
+    width: 149.4rem;
+    height: 36.5rem;
+}
+#logo1{
+    position: relative;
+left: 26rem;
+top: 1rem;
+}
+#companyname{
+    position: relative;
+left: 25.8rem;
+top: -160px;
+font-size: 6.5rem;
+font-style: italic;
+font-family: "Gill Sans", sans-serif;
+}
+.navbar{
+    opacity: 0;
+}
+#navbarrsp{
+    background-color: rgb(36, 36, 37);
+height: 1000px;
+position: absolute;
+top: 0px;
+width: 68rem;
+right: 0;
+border-radius: 92px;
+} 
+#a1{
+    color: white;
+position: absolute;
+top: 16rem;
+font-size: 84px;
+font-style: normal;
+left: 0rem;
+text-decoration-line: none;
+}
+#a2{
+    color: white;
+position: absolute;
+top: 32rem;
+font-size: 84px;
+font-style: normal;
+left: 0rem;
+text-decoration-line: none;
+}
+#a3{
+    color: white;
+position: absolute;
+top: 48rem;
+font-size: 84px;
+font-style: normal;
+left: 0rem;
+text-decoration-line: none;
+}
+#a4{
+    color: white;
+position: absolute;
+top: 64rem;
+font-size: 84px;
+font-style: normal;
+left: 0rem;
+text-decoration-line: none;
+}
+#a5{
+    color: white;
+position: absolute;
+top: 79rem;
+font-size: 84px;
+font-style: normal;
+left: 0rem;
+text-decoration-line: none;
+}
+.img1{
+    width: 24rem;
+height: 23.5rem;
+border-radius: 1rem;
+position: relative;
+top: 6.5rem;
+}
+
+
+#div2{                                           
+    /* background: center no-repeat url(./img/frontpageimg.jpg); */
+    background-color: #0009;
+    height: 203rem;
+    width: 133.4rem;
+    position: relative;
+    top: 0rem;
+    /* opacity: 0.6; */
+
+}
+.fontpageimg{
+    position: absolute;
+    width: 133.5rem;
+    top: -12rem;
+    z-index: -1;
+    height: 215rem;
+}
+
+/*              SECTION 2          */
+
+.section2img{
+    position: absolute;
+    top: 0rem;
+    width: 125rem;
+    height: 94rem;
+    left: 4rem;
+}
+#section2{
+    background-color: white;
+    width: 132.6rem;
+    height: 185rem;
+    position: relative;
+    top: 12rem;
+}
+span {
+    content: "\276F";
+  }
+.imageleft{
+    position: absolute;
+    height: 19rem;
+    font-size: 14rem;
+    left: 4.2rem;
+    background: white;
+    top: 13%;
+    width: 8rem;
+    padding: 0.8rem 1.8rem;
+    justify-items: center;
+    margin: 0rem;
+    border-radius: 50%;
+    z-index: 1;
+}
+.imagerigth{
+    position: absolute;
+    height: 19rem;
+    font-size: 14rem;
+    left: 117rem;
+    background: white;
+    top: 13%;
+    width: 8rem;
+    padding: 0.8rem 1.8rem;
+    justify-items: center;
+    margin: 0rem;
+    border-radius: 50%;
+    z-index: 1;
+}
+.section2div3h1{
+    top: 91rem;
+    position: absolute;
+    left: 41rem;
+    font-size: 9.5rem;
+}
+.section2div3p1{
+    position: absolute;
+    top: 116rem;
+    left: 7rem;
+    font-size: 5.7rem;
+    width: 124rem;
+}
+.section2div3p2{
+    display: none;
+}
+#p1{
+    position: absolute;
+    top: 163rem;
+    left: 7rem;
+    font-size: 5.7rem;
+    width: 124rem;
+
+}
+#section2div3p1btn1{
+    /* display: none; */
+    display: block;
+    font-size: 7rem;
+    position: absolute;
+    top: 162rem;
+    left: 8rem;
+    
+}
+#section2div3p1btn2{
+    /* display: none; */
+    display: block;
+    font-size: 7rem;
+    position: absolute;
+    top: 249rem;
+    left: 8rem;
+    
+}
+.section2div3line{
+    position: absolute;
+    top: 112rem;
+    width: 21rem;
+    left: 60rem;
+    height: 0.2rem;
+    color: black;
+    background: black;
+}
+
+/*      SECTION 3       */
+#section3{
+    /* background-color: white;
+    width: 133.6rem;
+    height: 264rem;
+    position: absolute;
+    top: 492rem; */
+    background-color: white;
+    width: 133.6rem;
+    height: 185rem;
+    position: relative;
+    top: 24rem;
+
+}
+.section3img{
+    
+
+    position: absolute;
+    top: 0rem;
+    width: 125rem;
+    height: 94rem;
+    left: 4rem;
+}
+
+.section3div3p2{
+    display: none;
+}
+#p2{
+    position: absolute;
+    top: 163rem;
+    left: 7rem;
+    font-size: 5.7rem;
+    width: 124rem;
+
+}
+#section3div3p1btn1{
+    /* display: none; */
+    display: block;
+    font-size: 7rem;
+    position: absolute;
+    top: 162rem;
+    left: 8rem;
+    
+}
+#section3div3p1btn2{
+    /* display: none; */
+    display: block;
+    font-size: 7rem;
+    position: absolute;
+    top: 249rem;
+    left: 8rem;
+    
+}
