@@ -53,4 +53,4 @@ jobs:
           app-name: 'kapildmn'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_879EF14F2A3E4B0A9DF48C05B1BF55F4 }}
-          package: .
+          package: npm
